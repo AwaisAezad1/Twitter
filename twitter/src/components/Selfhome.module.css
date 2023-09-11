@@ -1,0 +1,275 @@
+.Selfhome{
+    position: absolute;
+    left: 34.2%;
+    top: 15%;
+    width: 745px;
+}
+.main{
+    background: #080e11;
+    border-radius: 20px;
+    margin-bottom: 2%;
+    padding-bottom: 20px;
+}
+.back{
+    width: 100%;
+}
+.profile{
+    position: absolute;
+    left: 18%;
+    top: 100px;
+    border-radius: 50px;
+}
+.items{
+    display: flex;
+    justify-content: space-evenly;
+}
+.leftitems{
+    text-align: center;
+    color: white;
+    padding-top: 6%;
+    font-size: 15px;
+}
+.leftitems h2{
+    font-weight: 400;
+}
+.leftitems p{
+    color: #888888;
+}
+.rightitems{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+}
+.rightitems h2{
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+.rightitems a{
+    text-decoration: none;
+    color: #1090F2;
+
+}
+.rightitems img{
+    margin-right: 10px;
+}
+.rightitems .nav_link{
+    align-self: center;
+    text-decoration: none;
+    color: #4C9EEB;
+    padding: 10px 80px;
+    border-radius: 20px;
+    border: 1px solid #4C9EEB;
+    margin-top: 20%;
+}
+.follow_following{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+    gap: 15%;
+}
+.followers h1{
+    font-size: 24px;
+    color: white;
+    margin: 0;
+}
+.following h1{
+    color: white;
+    font-size: 24px;
+    margin: 0;
+}
+.followers h3{
+    font-size: 15px;
+    color: #888888;
+    margin: 0;
+    font-weight: 300;
+}
+.following h3{
+    font-size: 15px;
+    color: #888888;
+    margin: 0;
+    font-weight: 300;
+}
+.vl{
+    border-left: 2px solid #8888888c;
+}
+.links{
+    border-radius: 20px;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navlinks{
+    background: #080e11;
+    border-radius: 15px;
+    padding: 15px 20px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    color: #888888;
+    transition: 0.5s;
+}
+.navlinks:hover{
+    transform: scale(0.9);
+    opacity: 0.8;
+}
+@media only screen and (min-width: 1350px) and (max-width: 1700px) {
+    .Selfhome{
+        width: 500px;
+        left: 34%;
+        top: 12%;
+    }
+    .profile{
+        position: absolute;
+        left: 15%;
+        top: 40px;
+        border-radius: 50px;
+    }
+    .leftitems h2{
+        font-size: 20px;
+    }
+    .rightitems {
+        font-size: 12px;
+    }
+    .followers h1{
+        font-size: 20px;
+    }
+    .following h1{
+        font-size: 20px;
+    }
+    .followers h3{
+        font-size: 12px;
+    }
+    .following h3{
+        font-size: 12px;
+    }
+    .links{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+}
+  @media only screen and (min-width: 1169px) and (max-width: 1350px) {
+    .Selfhome{
+        width: 450px;
+        left: 30%;
+        top: 12%;
+    }
+    .profile{
+        position: absolute;
+        left: 15%;
+        top: 40px;
+        border-radius: 50px;
+    }
+    .leftitems h2{
+        font-size: 15px;
+    }
+    .rightitems {
+        font-size: 10px;
+    }
+    .followers h1{
+        font-size: 15px;
+    }
+    .following h1{
+        font-size: 15px;
+    }
+    .followers h3{
+        font-size: 10px;
+    }
+    .following h3{
+        font-size: 10px;
+    }
+    .links{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+  }
+  
+  @media only screen and (min-width: 1115px) and (max-width: 1169px) {
+    
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 1115px) {
+    
+  }
+  @media only screen and (min-width: 500px) and (max-width: 768px) {
+   .Selfhome{
+        width: 490px;
+        left: 20%;
+        top: 3%;
+    }
+    .profile{
+        position: absolute;
+        left: 13%;
+        top: 40px;
+        width: 70px;
+        height: 70px;
+        border-radius: 50px;
+    }
+    .leftitems h2{
+        font-size: 15px;
+    }
+    .rightitems {
+        font-size: 10px;
+    }
+    .followers h1{
+        font-size: 15px;
+    }
+    .following h1{
+        font-size: 15px;
+    }
+    .followers h3{
+        font-size: 10px;
+    }
+    .following h3{
+        font-size: 10px;
+    }
+    .links{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+}
+  @media only screen and  (min-width: 300px) and (max-width: 500px) {
+    .Selfhome{
+        width: 370px;
+        left: 20%;
+        top: 3%;
+    }
+    .profile{
+        position: absolute;
+        left: 12%;
+        width: 70px;
+        height: 70px;
+        top: 30px;
+        border-radius: 50px;
+    }
+    .leftitems h2{
+        font-size: 15px;
+    }
+    .rightitems {
+        font-size: 10px;
+    }
+    .followers h1{
+        font-size: 15px;
+    }
+    .following h1{
+        font-size: 15px;
+    }
+    .followers h3{
+        font-size: 10px;
+    }
+    .following h3{
+        font-size: 10px;
+    }
+    .links{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+    .nav_link{
+        padding: 10px 10px;
+    }
+}

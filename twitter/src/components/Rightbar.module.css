@@ -1,0 +1,118 @@
+.right{
+    position: fixed;
+    left: 75%;
+    width: 430px;
+    top: 15%;
+    z-index: -1;
+    
+}
+.box1,.box2{
+    background: #080e11;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    color: white;
+}
+.right h1{
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.people{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+}
+.people .peopletext h1{
+    margin: 0;
+    color: white;
+}
+.people p{
+    margin: 0;
+    color: #888888;
+}
+.people button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-style: none;
+    font-weight: bold;
+}
+.nav_link{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    cursor: default;
+}
+.nav_link h1{
+    font-weight: 500;
+    font-size: 20px;
+    color: #1090F2;
+    cursor: pointer;
+}
+
+
+.box2 .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box2 p{
+    color: #888888;
+    font-size: 17px;
+}
+.tweets{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.tweettop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tweets h1{
+margin: 0;
+}
+.tweets p{
+    margin: 5px 0;
+}
+@media only screen and (min-width: 1350px) and (max-width: 1700px) {
+    .right{
+        width: 350px;
+        left: 73%;
+        top: 12%;
+    }
+}
+  @media only screen and (min-width: 1169px) and (max-width: 1350px) {
+    .right{
+        width: 330px;
+        left: 70%;
+        
+        top: 12%;
+    }
+  }
+  
+  @media only screen and (min-width: 1115px) and (max-width: 1169px) {
+    .right{
+        width: 300px;
+        left: 72%;
+        top: 11%;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 1115px) {
+    
+  }
+  @media only screen and (min-width: 500px) and (max-width: 768px) {
+    .right{
+        display: none;
+    }
+}
+  @media only screen and  (min-width: 300px) and (max-width: 500px) {
+    .right{
+        display: none;
+    }
+}

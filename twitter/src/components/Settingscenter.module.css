@@ -1,0 +1,156 @@
+.Settingsmain{
+    position: absolute;
+    top: 15%;
+    left: 34%;
+    width: 745px;
+    z-index: -1;
+}
+.Settingsmainbar{
+    display: flex;
+    justify-content: space-between;
+    background: #080e11;
+    align-items: center;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+}
+.Settingsmain h1{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+.leftboxes{
+    height: 17.3%;
+    width: 200px;
+}
+.leftboxes .Nav_link{
+    display: flex;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 18px;
+    border-radius: 15px;
+    justify-content: center;
+    color: white;
+    background: #080e11;
+    padding: 40px 20px;
+}
+.boxes{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+}
+.rightbox{
+    background: #192833;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+}
+.rightbox h1{
+ margin: 10px 0 ;
+}
+.rightbox p{
+    color: #AFAFAF;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.hl{
+    border-bottom: 4px solid black;
+    width: 130%;
+    margin-left: -15%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+@media only screen and (min-width: 1350px) and (max-width: 1700px) {
+    .Settingsmain{
+        width: 500px;
+    }
+    .hl{
+        width: 180%;
+        margin-left: -30%;
+    }
+}
+  @media only screen and (min-width: 1169px) and (max-width: 1350px) {
+    .Settingsmain{
+        width: 450px;
+        left: 30%;
+    }
+    .hl{
+        width: 190%;
+        margin-left: -50%;
+    }
+  }
+  
+  @media only screen and (min-width: 1115px) and (max-width: 1169px) {
+    .Settingsmain{
+        width: 450px;
+        left: 30%;
+    }
+    .hl{
+        width: 190%;
+        margin-left: -50%;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 1115px) {
+    
+  }
+  @media only screen and (min-width: 500px) and (max-width: 768px) {
+    .Settingsmain{
+        width: 350px;
+        left: 27%;
+        top: 3%;
+    }
+    .hl{
+        width: 190%;
+        margin-left: -50%;
+    }
+    .boxes{
+        display: flex;
+        flex-direction: column;
+    }
+    .leftgrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    }
+    .leftboxes{
+        width: 170px;
+    }
+.leftboxes .Nav_link{
+    
+    font-size: 15px;
+    padding: 20px;
+    
+}
+}
+  @media only screen and  (min-width: 300px) and (max-width: 500px) {
+    .Settingsmain{
+        width: 350px;
+        left: 20%;
+        top: 3%;
+    }
+    .hl{
+        width: 190%;
+        margin-left: -50%;
+    }
+    .boxes{
+        display: flex;
+        flex-direction: column;
+    }
+    .leftgrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    }
+    .leftboxes{
+        width: 170px;
+    }
+.leftboxes .Nav_link{
+    
+    font-size: 15px;
+    padding: 20px;
+    
+}
+}

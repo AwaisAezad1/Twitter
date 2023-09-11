@@ -1,0 +1,132 @@
+.profile{
+    border-radius: 50px;
+    position: absolute;
+    left: 39%;
+    top: 5%;
+}
+.leftimg{
+    width: 100%;
+}
+.textfield{
+    color: white;
+    margin-top: -7px;
+    width: 430px;
+    padding-top: 12%;
+    text-align: center;
+    background: #080E11;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+}
+.textfield h2{
+    font-weight: 100;
+}
+.textfield p{
+    margin-top: -15px;
+    font-weight: 100;
+    color: #888888;
+}
+.textfield .hl{
+    border-bottom: 1px solid #888888;
+    width: 100%;
+    opacity: 0.4;
+}
+.textfield .vl{
+    border-left:  1px solid #888888;
+    height: 80px;
+    opacity: 0.4;
+}
+
+.following{
+display: flex;
+flex-direction: column;
+align-self: center;
+}
+.following h1{
+    font-size: 25px;
+    margin: 0;
+    font-weight: 400;
+}
+.following h3{
+    color: #888888;
+    font-weight: 100;
+    font-size: 15px;
+    margin: 0;
+}
+.followers{
+display: flex;
+flex-direction: column;
+align-self: center;
+}
+.followers h1{
+     font-size: 25px;
+     margin: 0;
+     font-weight: 400;
+}
+.followers h3{
+    color: #888888;
+    font-size: 15px;
+    font-weight: 100;
+    margin: 0;
+}
+.follow_following{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+.nav_link{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    cursor: default;
+}
+.nav_link h1{
+    font-weight: 500;
+    font-size: 20px;
+    color: #1090F2;
+    padding: 10px 0;
+    cursor: pointer;
+}
+.additional{
+    position: absolute;
+    top: -2%;
+    left: -12%;
+}
+@media only screen and (min-width: 1350px) and (max-width: 1700px) {
+    .textfield{
+        width: 370px;
+    }
+    .leftimg{
+        margin-top: 7%;
+    }
+}
+  @media only screen and (min-width: 1169px) and (max-width: 1350px) {
+    .textfield{
+        width: 300px;
+    }
+    .profile{
+        left: 37%;
+        width: 80px;
+        height: 80px;
+    }
+  }
+  
+  @media only screen and (min-width: 1115px) and (max-width: 1169px) {
+    .textfield{
+        width: 300px;
+    }
+    .profile{
+        left: 37%;
+        width: 80px;
+        height: 80px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 1115px) {
+    
+  }
+  @media only screen and (min-width: 500px) and (max-width: 768px) {
+    
+}
+  @media only screen and  (min-width: 300px) and (max-width: 500px) {
+    
+}

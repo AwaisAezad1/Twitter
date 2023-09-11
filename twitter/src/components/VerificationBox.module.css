@@ -1,0 +1,71 @@
+
+.VerificationBoxmain{
+    z-index: 1;
+    position: absolute;
+    top: 10%;
+    left: 115%;
+    margin: auto;
+    background: #132029;
+    border-radius: 15px;
+    width: 638px;
+    padding: 30px;
+}
+.VerificationBoxmain img{
+    cursor: pointer;
+}
+.VerificationBoxmain h1{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 ;
+    font-weight: 500;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #203543;
+    margin: 0 10%;
+    padding: 10px 0;
+    border-radius: 20px;
+}
+.buttons button{
+    cursor: pointer;
+    border-style: none;
+    font-size: 17px;
+    border-radius: 20px;
+    background: #203543;
+    padding: 10px 90px;
+    color: #e9e9e983;
+}
+.buttons .activeButton{
+    color: white;
+    background-color: #132029;
+}
+.items{
+    color: white;
+    background: #203543;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 20px;
+}
+.items li{
+    margin: 20px 0;
+    font-size: 20px;
+}
+.VerificationBoxmain .Nav_link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    background: white;
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 10px 0;
+    margin: 0 20px;
+}
+.VerificationBoxmain .Nav_link img{
+    margin-left: 10px;
+}

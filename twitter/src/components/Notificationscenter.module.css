@@ -1,0 +1,61 @@
+.notificationmain{
+    position: absolute;
+    top: 15%;
+    left: 34%;
+    width: 745px;
+    z-index: -1;
+}
+.notificationbar{
+    display: flex;
+    justify-content: space-between;
+    background: #080e11;
+    align-items: center;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+}
+.notificationbar h1{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+@media only screen and (min-width: 1350px) and (max-width: 1700px) {
+    .notificationmain{
+        width: 500px;
+        left: 34%;
+        top: 12%;
+    }
+}
+  @media only screen and (min-width: 1169px) and (max-width: 1350px) {
+    .notificationmain{
+        width: 450px;
+        left: 30%;
+        top: 12%;
+    }
+  }
+  
+  @media only screen and (min-width: 1115px) and (max-width: 1169px) {
+    .notificationmain{
+        width: 450px;
+        left: 30%;
+        top: 11%;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 1115px) {
+    
+  }
+  @media only screen and (min-width: 500px) and (max-width: 768px) {
+    .notificationmain{
+      width: 350px;
+      left: 27%;
+      top: 3%;
+    }
+}
+  @media only screen and  (min-width: 300px) and (max-width: 500px) {
+    .notificationmain{
+      width: 350px;
+      left: 20%;
+      top: 3%;
+    }
+}

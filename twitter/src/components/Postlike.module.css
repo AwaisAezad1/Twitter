@@ -1,0 +1,63 @@
+.like{
+    background: #080e11;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.like img{
+    padding: 0 5px;
+}
+.like .text{
+    margin: 5px 70px;
+}
+.liked{
+    display: flex;
+    align-items: center;
+}
+.like .text h2{
+    color: rgba(255, 255, 255, 0.589);
+    margin-left: 3px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.like .text h1{
+    color: white;
+    font-size: 20px;
+}
+.like .text p{
+    color: #888888;
+    text-align: justify;
+}
+@media only screen and (min-width: 1350px) and (max-width: 1700px) {
+    
+}
+  @media only screen and (min-width: 1169px) and (max-width: 1350px) {
+    
+  }
+  
+  @media only screen and (min-width: 1115px) and (max-width: 1169px) {
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 1115px) {
+    
+  }
+  @media only screen and (min-width: 500px) and (max-width: 768px) {
+    .like .text p{
+      width: 230px;
+      margin-left: -30%;
+      
+    }
+    .like .text h1{
+    margin-left: -30%;
+}
+}
+  @media only screen and  (min-width: 300px) and (max-width: 500px) {
+    .like .text p{
+      width: 230px;
+      margin-left: -30%;
+      
+    }
+.like .text h1{
+    margin-left: -30%;
+}
+}

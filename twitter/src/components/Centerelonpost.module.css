@@ -1,0 +1,109 @@
+.center{
+    margin: 20px 0;
+    padding: 20px;
+    background: #080E11;
+    border-radius: 15px;
+}
+.posttop{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.posttop .text{
+    display: flex;
+    align-items: center;
+}
+.posttop .text img{
+    border-radius: 50px;
+    border-style: none;
+}
+.posttop .text h1{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.posttop .text p{
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0;
+    color: #888888;
+}
+.posttop .text .tag{
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+.postmid{
+    width: 580px;
+    margin-left: 10%;
+}
+.postmid p{
+    color: white;
+    text-align: justify;
+    margin-bottom: 0;
+}
+.postdown{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.postdown button{
+    display: flex;
+    color: white;
+    background: transparent;
+    border-style: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+    align-items: center;
+    border: 1px solid rgba(128, 128, 128, 0.534);
+    border-radius: 20px;
+}
+.postdown button img{
+    margin-right: 10px;
+}
+@media only screen and (min-width: 1350px) and (max-width: 1700px) {
+    .posttop{
+        width: 100%;
+    }
+    .postmid{
+        width: 370px;
+    }
+}
+  @media only screen and (min-width: 1169px) and (max-width: 1350px) {
+    .postmid{
+        width: 360px;
+    }
+  }
+  
+  @media only screen and (min-width: 1115px) and (max-width: 1169px) {
+    .postmid{
+        width: 360px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 1115px) {
+    
+  }
+  @media only screen and (min-width: 500px) and (max-width: 768px) {
+    .postmid{
+        width: 270px;
+    }
+    .postdown{
+        gap: 5px;
+    }
+    .postdown button{
+        width: 85px;
+        padding: 6px;
+    }
+}
+  @media only screen and  (min-width: 300px) and (max-width: 500px) {
+    .postmid{
+        width: 270px;
+    }
+    .postdown{
+        gap: 5px;
+    }
+    .postdown button{
+        width: 85px;
+        padding: 6px;
+    }
+}

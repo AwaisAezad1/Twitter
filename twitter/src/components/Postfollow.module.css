@@ -1,0 +1,51 @@
+.follow{
+    background: #080e11;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.follow img{
+    padding: 0 5px;
+}
+.follow .text{
+    margin: 5px 70px;
+}
+.followed{
+    display: flex;
+    align-items: center;
+}
+.follow .text h2{
+    color: rgba(255, 255, 255, 0.589);
+    margin-left: 3px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.follow .text h1{
+    color: white;
+    font-size: 20px;
+}
+@media only screen and (min-width: 1350px) and (max-width: 1700px) {
+    
+}
+  @media only screen and (min-width: 1169px) and (max-width: 1350px) {
+    
+  }
+  
+  @media only screen and (min-width: 1115px) and (max-width: 1169px) {
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 1115px) {
+    
+  }
+  @media only screen and (min-width: 500px) and (max-width: 768px) {
+    .follow .text .followed{
+        width: 250px;
+        gap: 20px;
+    }
+}
+  @media only screen and  (min-width: 300px) and (max-width: 500px) {
+    .follow .text .followed{
+        width: 250px;
+        gap: 20px;
+    }
+}

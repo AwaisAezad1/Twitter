@@ -1,0 +1,89 @@
+.leftbar{
+    width: 430px;
+    margin-left: 9%;
+    margin-top: 7%;
+    position: fixed;
+    overflow-y: visible;
+}
+.nav_link{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    cursor: default;
+}
+.nav_link h1{
+    font-weight: 500;
+    font-size: 20px;
+    color: #1090F2;
+    padding: 10px 0;
+    cursor: pointer;
+}
+.post{
+    display: flex;
+    align-items: center;
+    background: #1090F2;
+    border-radius: 25px;
+    margin: 5% 10%;
+    height: 50px;
+
+}
+.post h1{
+    color: white;
+}
+
+.vl_leftbar{
+    border-bottom:  3px solid #888888;
+    border-radius: 20px;
+    margin: 5% 10%;
+    opacity: 0.4;
+}
+.more{
+    align-items: center;
+    background: #080E11;
+    justify-content: flex-start;
+    margin: 5% 10%;
+    border-radius: 10px;
+    height: 60px;
+    padding-left: 50px;
+}
+.more img{
+    padding-right: 20px;
+}
+.activeButton{
+    background-color: #1090f269;
+}
+@media only screen and (min-width: 1350px) and (max-width: 1700px) {
+    .leftbar{
+        width: 370px;
+        margin-left: 5%;
+    }
+}
+  @media only screen and (min-width: 1169px) and (max-width: 1350px) {
+    .leftbar{
+        width: 300px;
+        margin-top: 10%;
+        margin-left: 2%;
+    }
+  }
+  
+  @media only screen and (min-width: 1115px) and (max-width: 1169px) {
+    .leftbar{
+        width: 300px;
+        margin-top: 10%;
+        margin-left: 2%;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 1115px) {
+    
+  }
+  @media only screen and (min-width: 500px) and (max-width: 768px) {
+    .leftbar{
+        display: none;
+    }
+}
+  @media only screen and  (min-width: 300px) and (max-width: 500px) {
+    .leftbar{
+        display: none;
+    }
+}

@@ -1,0 +1,122 @@
+.Explorepostmain{
+    position: absolute;
+    top: 15%;
+    left: 34%;
+    width: 745px;
+    z-index: -1;
+}
+.Explorepostmainbar{
+    display: flex;
+    justify-content: space-between;
+    background: #080e11;
+    align-items: center;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+}
+.Explorepostmain h1{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+.links{
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+.navlinks{
+    background: #080e11;
+    border-radius: 15px;
+    padding: 15px 20px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    color: #888888;
+    transition: 0.5s;
+}
+.navlinks:hover{
+    transform: scale(0.9);
+    opacity: 0.8;
+}
+.Explorepostmain .trendings{
+    background: #080e11;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px 0;
+}
+.Explorepostmain .trendings h1{
+    margin: 0;
+}
+.Explorepostmain .trendings p{
+    margin: 0;
+    margin-top: 5px;
+    color: #888888;
+    font-size: 12px;
+}
+.Nowtrending{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media only screen and (min-width: 1350px) and (max-width: 1700px) {
+    .Explorepostmain{
+        width: 500px;
+    }
+    .links{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+}
+  @media only screen and (min-width: 1169px) and (max-width: 1350px) {
+    .Explorepostmain{
+        width: 450px;
+        left: 30%;
+    }
+    .links{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+  }
+  
+  @media only screen and (min-width: 1115px) and (max-width: 1169px) {
+    .Explorepostmain{
+        width: 450px;
+        left: 30%;
+    }
+    .links{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 1115px) {
+    
+  }
+  @media only screen and (min-width: 500px) and (max-width: 768px) {
+    .Explorepostmain{
+        width: 350px;
+        left: 27%;
+        top: 3%;
+    }
+    .links{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+}
+  @media only screen and  (min-width: 300px) and (max-width: 500px) {
+    .Explorepostmain{
+        width: 350px;
+        left: 20%;
+        top: 3%;
+    }
+    .links{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+}
